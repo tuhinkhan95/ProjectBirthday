@@ -20,7 +20,7 @@ public class BirthdayAppDemo {
 			System.out.println(friend.getName()+" "+friend.getEmail()+" "+friend.getDob());
 			
 		}
-		//System.out.println(allFreindList);
+		
 		//Send mail from mailService
 	}
 
