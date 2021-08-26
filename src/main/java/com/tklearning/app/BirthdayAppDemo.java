@@ -16,6 +16,10 @@ public class BirthdayAppDemo {
 		
 		//Get friends with birthday in the current data
 		//TODO
+		for(Friends friend:allFreindList) {
+			System.out.println(friend.getName()+" "+friend.getEmail()+" "+friend.getDob());
+			
+		}
 		
 		//Send mail from mailService
 	}

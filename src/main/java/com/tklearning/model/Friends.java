@@ -13,6 +13,10 @@ public class Friends {
 		this.dob = dob;
 	}
 	
+	public Friends() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getName() {
 		return name;
 	}
