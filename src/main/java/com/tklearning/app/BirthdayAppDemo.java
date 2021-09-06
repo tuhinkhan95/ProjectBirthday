@@ -5,6 +5,8 @@ import java.util.List;
 import com.tklearning.model.Friends;
 import com.tklearning.service.ExcelService;
 import com.tklearning.service.FriendsService;
+import com.tklearning.service.MailCheck;
+
 
 public class BirthdayAppDemo {
 
@@ -28,8 +30,12 @@ public class BirthdayAppDemo {
 			System.out.println(friend.getName());
 			System.out.println(friend.getEmail());
 		}
+	
+		
 		
 		//Send mail from mailService
+		MailCheck mailservice=new MailCheck();
+		List<Friends> sendMail=mailservice.mailSenders(allBday);
 	}
 
 }
